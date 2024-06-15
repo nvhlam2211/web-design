@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: space-around;
+    top: 1px;
+    padding: 10px;
+    align-items: center;
+}
+header{
+    margin-top: 100px;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li:hover{
+    background-color: silver;
+}
+h2{
+    color: rgb(1, 6, 7);
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.watch-detail{
+    margin-top: 20px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(105, 173, 246, 0.918);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+button:hover{
+    border: 3px solid;
+    border-image-source: linear-gradient(to right, #e91248, #c5ee6d, #e91248); 
+    border-image-slice :1;
+    transition: 0.1s ease-in-out;
+    font-weight: bold;
+}
+.info-sport{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: rgba(0, 0, 0, 0.703);
+    font-size: 13px;
+    padding: 10px;
+}
+.picture{
+    width: 240px;
+    height: 160px;
+    margin-left: 7px;
+}
+.wrapper-article-sport{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.info-sport:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}
+.wrapper-article-law{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.info-law{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.info-law:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}
+.wrapper-article-economy{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.info-economy{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.info-economy:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}
+.wrapper-article-health{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.info-health{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.info-health:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}
+.wrapper-article-culture{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.info-culture{
+    width: 250px;
+    height: 290px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.info-culture:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}
+.wrapper-bonus-sport{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.bonus-info-sport{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.bonus-info-sport:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}
+.wrapper-bonus-law{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.bonus-info-law{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.bonus-info-law:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}   
+.wrapper-bonus-economy{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.bonus-info-economy{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.bonus-info-economy:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}   
+.wrapper-bonus-health{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.bonus-info-health{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.bonus-info-health:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}  
+.wrapper-bonus-culture{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.bonus-info-culture{
+    width: 250px;
+    height: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.703);
+    padding: 10px;
+}
+.bonus-info-culture:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}  
+footer{
+    height: 200px;
+    background: silver;
+    margin-top: 20px;
+    position: relative;
+}
+.logo-end{
+    width: 90px;
+    height: 70px;
+}
+.wrapper-end{
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    position: absolute;
+    top:60px;
+    left: 130px;
+}
+.wrapper-bonus-sport{
+    display: none;
+}
+.wrapper-bonus-law{
+    display: none;
+}
+.wrapper-bonus-economy{
+    display: none;
+}
+.wrapper-bonus-health{
+    display: none;
+}
+.wrapper-bonus-culture{
+    display: none;
+}
+.wrapper{
+    display: none;
+}
+@media (max-width: 900px ) {
+    .wrapper-article-sport,.wrapper-bonus-sport, .wrapper-bonus-law,.wrapper-bonus-economy,.wrapper-bonus-health, .wrapper-bonus-culture ,.wrapper-article-law, .wrapper-article-economy, .wrapper-article-health, .wrapper-article-culture{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 500px ) {
+    .wrapper-article-sport,.wrapper-bonus-sport, .wrapper-bonus-law,.wrapper-bonus-economy,.wrapper-bonus-health, .wrapper-bonus-culture ,.wrapper-article-law, .wrapper-article-economy, .wrapper-article-health, .wrapper-article-culture{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50%;
+    }
+}
+@media (max-width: 300px ) {
+    .wrapper-article-sport,.wrapper-bonus-sport, .wrapper-bonus-law,.wrapper-bonus-economy,.wrapper-bonus-health, .wrapper-bonus-culture ,.wrapper-article-law, .wrapper-article-economy, .wrapper-article-health, .wrapper-article-culture{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 70%;
+    }
+}
